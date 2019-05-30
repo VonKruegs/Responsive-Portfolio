@@ -218,17 +218,32 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-  .main-section { width: 100%;
+  ul {
+    padding-inline-start: 0px;
+    cursor: none;
+  }
+  
+  nav {margin-right: 5%;
+  }
+  .work {width: 45%;}
+  .main-section { width: 65%;
     background-color: orange;
-
   }
 
 }
 @media screen and (max-width: 768px) {
 
+  ul {
+    padding-inline-start: 0px;
+    cursor: none;
+  }
+
+  nav {margin-right: 5%;
+  }
+  .work {width: 46%;
+  }
   .main-section { width: 100%;
     background-color: green;
-
   }
 
 }
