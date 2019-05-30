@@ -227,7 +227,6 @@ input[type=submit] {
   }
   .work {width: 45%;}
   .main-section { width: 65%;
-    background-color: orange;
   }
 
 }
@@ -243,7 +242,6 @@ input[type=submit] {
   .work {width: 46%;
   }
   .main-section { width: 100%;
-    background-color: green;
   }
 
 }
@@ -274,9 +272,8 @@ ul {
     position: static;
   }
 
-  .main-section { width: 100%;
-    background-color: blue;
-
+  .main-section { 
+    width: 100%;
   }
 
 }
